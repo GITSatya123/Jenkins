@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<link href="menu.html" rel="import" />
+<h1 style="color:blue;text-align:center"> STAFF Details</h1>
+<table border="1" bgcolor="cyan">
+	<tr bordercolor="pink" bgcolor="red">
+		<th>ID</th>
+		<th>NAME</th>
+		<th>GENDER</th>
+		<th>SALARY</th>
+		<th>DEPT</th>
+		<th>Operation</th>
+	</tr>
+	<tr th:each="ob:${list}">
+		<td th:text=${ob.staffId}></td>
+		<td th:text=${ob.staffName}></td>
+		<td th:text=${ob.gender}></td>
+		<td th:text=${ob.staffSal}></td>
+		<td th:text=${ob.staffDept}></td>
+		<td>
+			<a th:href="@{/staff/delete?id={id}(id=${ob.staffId})}">DELETE</a>
+			<a th:href="@{/staff/edit?id={id}(id=${ob.staffId})}">EDIT</a>
+		</td>
+		
+			
+		
+ 	</tr>
+</table>
+<span th:text="${message}"></span>
+</body>
+</html>

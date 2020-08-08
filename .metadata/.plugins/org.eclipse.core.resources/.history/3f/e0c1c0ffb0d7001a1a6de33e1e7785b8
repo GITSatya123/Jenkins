@@ -1,0 +1,5 @@
+package com.st.model;
+
+public class Student {
+
+}

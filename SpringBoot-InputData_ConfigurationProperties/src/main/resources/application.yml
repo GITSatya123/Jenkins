@@ -1,0 +1,6 @@
+my:
+  laptop:
+    id: 501
+    name: DELL
+    version: 6.5
+    color: Red

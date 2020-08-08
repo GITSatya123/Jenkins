@@ -1,0 +1,13 @@
+package com.st;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Project43SpringCloudCsConfigServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Project43SpringCloudCsConfigServerApplication.class, args);
+	}
+
+}

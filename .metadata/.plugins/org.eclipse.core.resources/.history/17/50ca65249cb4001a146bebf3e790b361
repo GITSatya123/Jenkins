@@ -1,0 +1,52 @@
+package com.st.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.st.model.Student;
+import com.st.repo.StudentRepo;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+
+	@Autowired
+	private StudentRepo repo;
+	@Override
+	public Integer saveStdData(Student s) {
+		
+		return repo.save(s).getId();
+	}
+
+	@Override
+	public void updateStdData(Student s) {
+		repo.save(s);	
+
+	}
+
+	@Override
+	public void deletestdData(Integer id) {
+		repo.deleteById(id);
+
+	}
+
+	@Override
+	public Optional<Student> getOneStdData(Integer id) {
+		
+		return repo.findById(id);
+	}
+	@Override
+	
+	public List<Student> getAllStdData() {
+		
+		return repo.findAll();
+	}
+
+	@Override
+	public boolean isExistStdData(Integer id) {
+		return repo.existsById(id);
+	}
+
+}

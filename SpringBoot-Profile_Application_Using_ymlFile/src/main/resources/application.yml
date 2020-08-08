@@ -1,0 +1,32 @@
+my:
+  db:
+    id: 101
+    name: mysql
+    version: 19.5
+---
+spring:
+    profiles: mysql
+    
+my:
+  db:
+    id: 102
+    name: orcl
+    version: 14
+---
+spring:
+    profiles: orcl
+    
+my:
+  db:
+    id: 103
+    name: sql
+    version: 2.6
+---
+spring:
+    profiles: sql                    
+    
+    
+ 
+ 
+  
+  

@@ -1,0 +1,14 @@
+my:
+  module:
+    id: 999
+    name: ananya
+    marks:
+      phy : 70
+      che : 89
+      math : 95
+      it : 58
+    modules:
+    - core
+    - spring
+    - DS
+    - collection  

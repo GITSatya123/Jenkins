@@ -1,0 +1,7 @@
+my:
+  laptop:
+      id: 303
+      name: HP
+      ram: 4.0
+      cost: 45000
+      

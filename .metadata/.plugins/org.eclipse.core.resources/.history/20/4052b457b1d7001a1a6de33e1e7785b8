@@ -1,0 +1,5 @@
+package com.st.config;
+
+public class AppConfig {
+
+}

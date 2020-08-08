@@ -1,0 +1,5 @@
+package com.st.controller;
+
+public class AddressRestController {
+
+}

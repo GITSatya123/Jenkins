@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<
+<h1 style="color:red;text-align:center">WELCOME TO STAFF PAGE</h1>
+<form th:action="@{/staff/update}" method="POST" th:object="${staff}">
+<pre>
+StaffId:   <input type="text" th:field="*{staffId}" readonly="readonly"/>
+StaffName: <input type="text" th:field="*{staffName}"/>
+Gender:    
+		   <input type="radio" th:field="*{gender}" value="male"/>Male
+		   <input type="radio" th:field="*{gender}" value="female"/>Female
+Salary:    <input type="text" th:field="*{staffSal}"/>
+StaffDept.:	<select th:field="*{staffDept}">
+				<option value="">-SELECT-</option>
+				<option value="manager">MANAGER</option>
+				<option value="clerk">CLERK</option>
+				<option value="MD">MD</option>
+			</select>	   
+			
+			<input type="submit" value="update"/>			
+</pre>
+</form>
+<span th:text="${message}"></span>
+</body>
+</html>	

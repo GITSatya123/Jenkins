@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Project-19-SpringBooot-RestFul-RestControllerWithDiffReturnType&apos; to &apos;Project-20-SpringBooot-RestFul-RestControllerWithDiffReturnType&apos;" description="Rename resource &apos;Project-19-SpringBooot-RestFul-RestControllerWithDiffReturnType&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Project-19-SpringBooot-RestFul-RestControllerWithDiffReturnType" name="Project-20-SpringBooot-RestFul-RestControllerWithDiffReturnType" stamp="1592587176802" updateReferences="true"/>
+</session>

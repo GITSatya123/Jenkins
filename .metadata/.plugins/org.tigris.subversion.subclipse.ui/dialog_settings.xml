@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="RepositorySelectionPage.lastRepository" value="https://desktop-3ef6dqa/svn/Spring_Demo_Repo/trunk"/>
+	<item key="DirectorySelectionPage.lastParent_https://desktop-3ef6dqa/svn/Spring_Demo_Repo/trunk" value=""/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Revision" value="71"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Date" value="177"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Author" value="141"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Comment" value="353"/>
+	<item key="CommitDialog.location.x" value="203"/>
+	<item key="CommitDialog.location.y" value="24"/>
+	<item key="CommitDialog.size.x" value="1163"/>
+	<item key="CommitDialog.size.y" value="728"/>
+	<item key="CommitDialog.weights.0" value="500"/>
+	<item key="CommitDialog.weights.1" value="500"/>
+	<item key="AnnotateDialog.location.x" value="421"/>
+	<item key="AnnotateDialog.location.y" value="108"/>
+	<item key="AnnotateDialog.size.x" value="525"/>
+	<item key="AnnotateDialog.size.y" value="385"/>
+	<item key="DirectorySelectionPage.lastParent_https://desktop-3ef6dqa/svn/Spring_Demo_Repo/branches" value=""/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://DESKTOP-3EF6DQA/svn/Spring_Demo_Repo/branches"/>
+		</list>
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+	</section>
+</section>

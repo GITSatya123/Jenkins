@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.st.model&apos; to &apos;Project-10-SpringBoot-ORMDataJPA_Using_NamedQuery/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Project-09-SpringBoot-ORMDataJPA_Using_Association_Mapping&apos;&#x0D;&#x0A;- Destination element: &apos;Project-10-SpringBoot-ORMDataJPA_Using_NamedQuery/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Project-09-SpringBoot-ORMDataJPA_Using_Association_Mapping/src/main/java/com.st.model&apos;" description="Copy package" destination="=Project-10-SpringBoot-ORMDataJPA_Using_NamedQuery/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.st.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1590848029445" version="1.0"/>
+</session>

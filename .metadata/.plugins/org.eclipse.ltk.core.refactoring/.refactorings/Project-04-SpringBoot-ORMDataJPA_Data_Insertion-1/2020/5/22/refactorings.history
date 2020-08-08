@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Project-04-SpringBoot-ORMDataJPA_Data_Insertion-1&apos;&#x0D;&#x0A;- Original project: &apos;Project-04-SpringBoot-ORMDataJPA_Data_Insertion-1&apos;&#x0D;&#x0A;- Original element: &apos;com.st.repo.VendorRepo.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.st.repo{VendorRepo.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1590425161274" subPackages="false" version="1.0"/>
+</session>
