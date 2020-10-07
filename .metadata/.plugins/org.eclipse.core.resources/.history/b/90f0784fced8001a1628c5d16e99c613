@@ -1,9 +1,0 @@
-info.my.app.title=NIT-SATYA
-info.my.app.version=5.6
-info.my.app.copy.reg=Active
-info.my.app.copy.year=2019
-
- management.endpoint.health.show-details=always
- management.endpoints.web.exposure.include="*"
- 	
-

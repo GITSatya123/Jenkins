@@ -1,5 +1,0 @@
-package com.st.dao;
-
-public interface StudentDAO {
-
-}

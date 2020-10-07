@@ -1,0 +1,14 @@
+server:
+  port: 5555
+spring:
+  application:
+    name: Stock-API-Gateway
+zuul:
+  prefix: /api
+  routes:
+    calculation:
+      path: /cal/**
+      service-id: Stock-Claculation-service
+    price:
+      path: /price/**
+      service-id: Stock-Price-Service

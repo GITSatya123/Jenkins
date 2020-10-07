@@ -85,8 +85,9 @@ public class StudentController {
 	}
 	
 	//7.pagination
+	
 	@GetMapping("/all")
-	public String fetchAll(@PageableDefault(page=0,size=3)Pageable p,Model model) {
+	public String fetchAll(@PageableDefault(page=0,size=5)Pageable p,Model model) {
 		Page< Student> page=service.getStudentPage(p);
 		model.addAttribute("page", page);
 		return"StudentData";
